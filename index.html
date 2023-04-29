@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Maps</title>
+
+     <!-- link css -->
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.1/dist/leaflet.css"
+          integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
+
+     <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+     <section id="container">
+          
+          <input type="search" class="search-location" placeholder="search location here..." oninput="onTyping(this)">
+          <div id="search-result">
+               <ul>
+                    <!-- <li><a href="#">resutl </a> </li>
+                    <li><a href="#">resutl </a> </li>
+                    <li><a href="#">resutl </a> </li> -->
+               </ul>
+          </div>
+          <div id="map">
+          </div>
+
+     </section>
+
+     <!-- link javascript -->
+     <script src="https://unpkg.com/leaflet@1.9.1/dist/leaflet.js"
+          integrity="sha256-NDI0K41gVbWqfkkaHj15IzU7PtMoelkzyKp8TOaFQ3s=" crossorigin=""></script>
+     <script src="script.js"></script>
+
+</body>
+
+</html>
